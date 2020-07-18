@@ -92,7 +92,7 @@ async function run() {
       message: 'Update README.md',
       committer: {
         name: user.name,
-        email: user.email,
+        email: '',
       },
       content: renderREADME(
         `https://github.com/${user.login}?tab=followers`,
